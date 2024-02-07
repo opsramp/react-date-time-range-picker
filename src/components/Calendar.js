@@ -368,8 +368,9 @@ class Calendar extends PureComponent {
     return format(date, 'HH:mm');
   }
   updateTime(time, start, end, index) {
+    if (!time) return
     const { updateRange } = this.props;
-    var values = time.split(':');
+    var values = (time || '00:00').split(':');
     if (index === 0) {
       start.setHours(values[0]);
       start.setMinutes(values[1]);
