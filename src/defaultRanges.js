@@ -138,13 +138,13 @@ export const defaultStaticRanges = createStaticRanges([
     }),
   },
 
-  {
-    label: i18n.t('arrayLastDays', { number: '365', joinArrays: ' ' }),
-    range: () => ({
-      startDate: defineds.lastYear,
-      endDate: defineds.now,
-    }),
-  },
+  // {
+  //   label: i18n.t('arrayLastDays', { number: '365', joinArrays: ' ' }),
+  //   range: () => ({
+  //     startDate: defineds.lastYear,
+  //     endDate: defineds.now,
+  //   }),
+  // },
   {
     label: i18n.t('monthToDate'),
     range: () => ({
@@ -152,20 +152,20 @@ export const defaultStaticRanges = createStaticRanges([
       endDate: defineds.now,
     }),
   },
-  {
-    label: i18n.t('yearToDate'),
-    range: () => ({
-      startDate: defineds.startOfYear,
-      endDate: defineds.now,
-    }),
-  },
-  {
-    label: i18n.t('lastMonth'),
-    range: () => ({
-      startDate: defineds.startOfLastMonth,
-      endDate: defineds.endOfLastMonth,
-    }),
-  },
+  // {
+  //   label: i18n.t('yearToDate'),
+  //   range: () => ({
+  //     startDate: defineds.startOfYear,
+  //     endDate: defineds.now,
+  //   }),
+  // },
+  // {
+  //   label: i18n.t('lastMonth'),
+  //   range: () => ({
+  //     startDate: defineds.startOfLastMonth,
+  //     endDate: defineds.endOfLastMonth,
+  //   }),
+  // },
 ]);
 
 export const defaultInputRanges = [
