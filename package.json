@@ -1,6 +1,6 @@
 {
   "name": "@opsramp/react-date-time-range-picker",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "description": "A React component for choosing date and time ranges.",
   "main": "dist/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
   "dependencies": {
     "classnames": "2.2.1",
     "date-fns": "^2.30.0",
-		"date-fns-tz": "^2.0.1",
+    "date-fns-tz": "^2.0.1",
     "i18next": "^20.3.1",
     "i18next-browser-languagedetector": "^6.1.1",
     "postcss": "8.5.3",
@@ -47,7 +47,7 @@
   "peerDependencies": {
     "react": "17.x || 18.x || 19.x",
     "date-fns": ">=1.0.0 <5.0.0",
-		"date-fns-tz": ">=1.0.0 <5.0.0"
+    "date-fns-tz": ">=1.0.0 <5.0.0"
   },
   "devDependencies": {
     "@wojtekmaj/enzyme-adapter-react-17": "0.8.0",
