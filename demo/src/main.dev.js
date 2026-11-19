@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import Main from './components/Main';
+import initializeDemoI18n from './initializeDemoI18n';
+
+initializeDemoI18n();
+const Main = require('./components/Main').default;
 
 const render = Component => {
   ReactDOM.render(

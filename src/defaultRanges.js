@@ -14,9 +14,10 @@ import {
   isSameDay,
   differenceInCalendarDays,
 } from 'date-fns';
-import i18n from 'i18next';
+import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+const i18n = i18next.createInstance();
 i18n.use(LanguageDetector).init({
   fallbackLng: 'en',
   interpolation: {

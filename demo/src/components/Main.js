@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import i18next from "i18next";
 import {
   Calendar,
   DateRange,
@@ -155,6 +156,9 @@ export default class Main extends Component {
     return (
       <main className={"Main"}>
         <h1 className={"Title"}>React-date-range</h1>
+        <p data-testid="demo-application-translation">
+          {i18next.t("demoApplicationText")}
+        </p>
 
         <Section title={`DateRangePicker - 2 month (${timeZone})`}>
           <div>
